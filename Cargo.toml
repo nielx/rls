@@ -27,3 +27,6 @@ serde_derive = "1.0"
 toml = "0.4"
 url = "1.1.0"
 url_serde = "0.2.0"
+
+[replace]
+"backtrace:0.3.2" = { git = "https://github.com/nielx/backtrace-rs", branch = "haiku-0.3.2" }
